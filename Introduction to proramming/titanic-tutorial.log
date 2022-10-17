@@ -1,0 +1,16 @@
+3.1s 1 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+7.2s 2 [NbConvertApp] Executing notebook with kernel: python3
+13.9s 3 Error in atexit._run_exitfuncs:
+13.9s 4 Traceback (most recent call last):
+13.9s 5 File "/opt/conda/lib/python3.6/logging/__init__.py", line 1944, in shutdown
+13.9s 6 h.flush()
+13.9s 7 File "/opt/conda/lib/python3.6/site-packages/absl/logging/__init__.py", line 891, in flush
+13.9s 8 self._current_handler.flush()
+13.9s 9 File "/opt/conda/lib/python3.6/site-packages/absl/logging/__init__.py", line 785, in flush
+13.9s 10 self.stream.flush()
+13.9s 11 File "/opt/conda/lib/python3.6/site-packages/ipykernel/iostream.py", line 341, in flush
+13.9s 12 if self.pub_thread.thread.is_alive():
+13.9s 13 AttributeError: 'NoneType' object has no attribute 'thread'
+14.6s 14 [NbConvertApp] Writing 27712 bytes to __notebook__.ipynb
+15.7s 15 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+16.3s 16 [NbConvertApp] Writing 305664 bytes to __results__.html
