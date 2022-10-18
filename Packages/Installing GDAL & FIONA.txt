@@ -1,0 +1,9 @@
+Then:
+
+pip install <gdal.whl>
+pip install <fiona.whl>
+In my case I did pip install GDAL-3.4.1-cp38-cp38-win_amd64.whl and Fiona-1.8.21-cp38-cp38-win_amd64.whl. Where cp38 stands for python 3.8.
+
+After that you are able to install geopandas with pip as well.
+
+pip install geo pandas
